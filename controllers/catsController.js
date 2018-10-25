@@ -1,5 +1,5 @@
 var express = require("express");
-
+let path = require("path");
 var router = express.Router();
 
 // Import the model (cat.js) to use its database functions.
@@ -42,6 +42,10 @@ router.put("/api/burgers/:id", function(req, res) {
       res.status(200).end();
     }
   });
+});
+
+router.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname, "../views/layouts/main.handlebars"));
 });
 
 
