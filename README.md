@@ -1,4 +1,4 @@
-[Click Here to Load the Page](https://rodier-eat-da-burger.herokuapp.com/)
+##Eat-Da-Burger
 
 1. At the bottom, type in the name of the burger you would like to eat
 
